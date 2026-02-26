@@ -52,12 +52,12 @@ properties:
       settings:
         id: XP9KHM4BK9FZ7Q
         source: msstore
-    - resource: Microsoft.WinGet.DSC/WinGetPackage
-      directives:
-        description: Install Spotify
-      settings:
-        id: 9NCBCSZSJRSB
-        source: msstore
+    # - resource: Microsoft.WinGet.DSC/WinGetPackage
+    #   directives:
+    #     description: Install Spotify
+    #   settings:
+    #     id: 9NCBCSZSJRSB
+    #     source: msstore
     - resource: PowerToysConfigure
       directives:
         description: Configure PowerToys
