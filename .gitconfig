@@ -1,0 +1,8 @@
+[user]
+	name = Ryan Luu
+	email = ryan.luu@ryanluu.dev
+	signingkey = FB2697001FAA04D1
+[commit]
+	gpgsign = true
+[tag]
+	gpgSign = true
