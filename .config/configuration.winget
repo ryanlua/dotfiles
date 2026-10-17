@@ -22,6 +22,7 @@ properties:
     - resource: Microsoft.WinGet.DSC/WinGetPackage
       directives:
         description: Install GitHub CLI
+        securityContext: elevated
       settings:
         id: GitHub.cli
         source: winget
